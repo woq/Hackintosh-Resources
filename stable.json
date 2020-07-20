@@ -47,17 +47,15 @@
     {
       "sort": "稳定",
       "repo": "Acidanthera/CPUFriend"
-    }
-    ,
+    },
     {
       "sort": "稳定",
       "repo": "Acidanthera/IntelMausi"
-    }
-    ,
+    },
     {
       "sort": "稳定",
       "repo": "Mieze/RTL8111_driver_for_OS_X"
     }
-  ]
+    ]
 
 }
