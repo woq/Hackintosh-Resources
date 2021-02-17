@@ -1,9 +1,74 @@
 {
   "list": [
     {
-      "sort1": "必备",
-      "sort2": "必备",
-      "repo": "Acidanthera/Lilu"
+      "sort1": "CORE | 核心",
+      "sort2": "Required | 必备",
+      "repo": "acidanthera/OpenCorePkg"
+    },
+    {
+      "sort1": "CORE | 核心",
+      "sort2": "Required | 必备",
+      "repo": "acidanthera/Lilu"
+    },
+    {
+      "sort1": "CORE | 核心",
+      "sort2": "Required | 必备",
+      "repo": "acidanthera/VirtualSMC"
+    },
+    {
+      "sort1": "Graphics | 显卡",
+      "sort2": "Required | 必备",
+      "repo": "acidanthera/WhateverGreen"
+    },
+    {
+      "sort1": "Audio | 声卡",
+      "sort2": "ALC",
+      "repo": "acidanthera/AppleALC"
+    },
+    {
+      "sort1": "Ethernet | 网卡",
+      "sort2": "Intel",
+      "repo": "acidanthera/IntelMausi"
+    },
+    {
+      "sort1": "Ethernet | 网卡",
+      "sort2": "Intel",
+      "repo": "khronokernel/SmallTree-I211-AT-patch"
+    },
+    {
+      "sort1": "Ethernet | 网卡",
+      "sort2": "Atheros",
+      "repo": "Mieze/AtherosE2200Ethernet"
+    },
+    {
+      "sort1": "Ethernet | 网卡",
+      "sort2": "Realtek",
+      "repo": "Mieze/RTL8111_driver_for_OS_X"
+    },
+    {
+      "sort1": "USB | USB",
+      "sort2": "USB",
+      "repo": "RehabMan/OS-X-USB-Inject-All"
+    },
+    {
+      "sort1": "WIFI | 无线",
+      "sort2": "Intel",
+      "repo": "OpenIntelWireless/itlwm"
+    },
+    {
+      "sort1": "Bluetooth | 蓝牙",
+      "sort2": "Intel",
+      "repo": "OpenIntelWireless/IntelBluetoothFirmware"
+    },
+    {
+      "sort1": "WIFI | 无线",
+      "sort2": "Broadcom",
+      "repo": "acidanthera/AirportBrcmFixup"
+    },
+    {
+      "sort1": "Bluetooth | 蓝牙",
+      "sort2": "Broadcom",
+      "repo": "acidanthera/BrcmPatchRAM"
     }
   ]
 
