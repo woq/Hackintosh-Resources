@@ -3,63 +3,7 @@
     {
       "sort": "稳定",
       "repo": "Acidanthera/Lilu"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/OpenCorePkg"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/AirportBrcmFixup"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/AppleALC"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/VoodooInput"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/VirtualSMC"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/VoodooPS2"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/BT4LEContinuityFixup"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/DebugEnhancer"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/NVMeFix"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/HibernationFixup"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/CPUFriend"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/IntelMausi"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Mieze/RTL8111_driver_for_OS_X"
-    },
-    {
-      "sort": "稳定",
-      "repo": "Acidanthera/WhateverGreen"
     }
-    ]
+  ]
 
 }
