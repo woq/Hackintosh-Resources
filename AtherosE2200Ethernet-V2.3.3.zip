@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gbk" />
+<title>提示信息  - 远景论坛 - 微软极客社区</title>
+<meta name="baidu-site-verification" content="a5v4fMZJjX0mruVT" />
+<meta name="keywords" content="" />
+<meta name="description" content=",远景论坛 - 微软极客社区" />
+<meta name="copyright" content="2005-2014 PCBETA TEAM." />
+<meta name="application-name" content="远景论坛" />
+<meta name="msapplication-tooltip" content="远景论坛" />
+<meta name="msapplication-task" content="name=远景论坛;action-uri=http://bbs.pcbeta.com/;icon-uri=http://bbs.pcbeta.com/favicon.ico" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<Meta http-equiv="MSSmartTagsPreventParsing" Content="YES" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta property="wb:webmaster" content="3ee8c38391d2c42e" />
+<meta baidu-gxt-verify-token="79dc0c1c2bb4111ea1e9ee0dac6871fd">
+<link rel="shortcut icon" href="http://www.pcbeta.com/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="http://www.pcbeta.com/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="shortcut icon" href="http://www.pcbeta.com/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/static/image/apple-touch-icon/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/static/image/apple-touch-icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/static/image/apple-touch-icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/static/image/apple-touch-icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/static/image/apple-touch-icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/static/image/apple-touch-icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/static/image/apple-touch-icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/static/image/apple-touch-icon/apple-touch-icon-152x152.png" />
+<base href="http://bbs.pcbeta.com/" /><link rel="stylesheet" type="text/css" href="http://www.pcbeta.com//data/cache/style_6_common.css?Z4m" /><link rel="stylesheet" type="text/css" href="http://www.pcbeta.com//data/cache/style_6_forum_attachment.css?Z4m" /><script src="http://www.pcbeta.com//data/cache/jquery.js?Z4m" type="text/javascript"></script>
+<script type="text/javascript">/*if(top.location!==self.location){top.location=self.location;}*/var STYLEID = '6', STATICURL = 'static/', STATIC_CSS = 'http://www.pcbeta.com//', STATIC_IMG = 'http://www.pcbeta.com//', STATIC_JS = 'http://www.pcbeta.com//data/cache/', IMGDIR = 'http://www.pcbeta.com///static/image/pcbeta', VERHASH = 'Z4m', charset = 'gbk', discuz_uid = '4836789', cookiepre = 'jqCP_887f_', cookiedomain = 'pcbeta.com', cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = 'login|newthread|viewvote|tradeorder|activity|debate|task', creditnotice = ',,,,', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy5wY2JldGEuY29tL2ZvcnVtLnBocD9tb2Q9YXR0YWNobWVudCZhaWQ9TkRJMk1UUXpNWHcxTVRrNE1XTTJZM3d4TmpFek5qVXdOVGsxZkRRNE16WTNPRGw4TVRnNE16QTNOZyUzRCUzRCZjaz0wNDY1M2EyOQ==', SITEURL = 'http://bbs.pcbeta.com/', JSPATH = 'http://www.pcbeta.com//data/cache/';jia_title='%CC%E1%CA%BE%D0%C5%CF%A2';</script>
+<script src="http://www.pcbeta.com//data/cache/common.js?Z4m" type="text/javascript"></script><link rel="archives" title="远景论坛 - 微软极客社区" href="http://bbs.pcbeta.com/archiver/" />
+<script src="http://www.pcbeta.com//data/cache/forum.js?Z4m" type="text/javascript"></script>
+</head>
+<body id="nv_forum" class="pg_attachment" onkeydown="if(event.keyCode==27) return false;">
+            <div id="append_parent"></div><div id="ajaxwaitid"></div>
+                <div id="toptb" class="cl">
+        <div class="wp">
+                        <div id="um">
+                <div style="top: -2px;position: relative;">
+                    <strong class="vwmy"><a href="http://i.pcbeta.com/space-uid-4836789.html" target="_blank" title="访问我的空间">everyve</a></strong>
+                                        <span class="pipe">|</span><a id="myrepeats" class="showmenu cur1" onmouseover="delayShow(this)">马甲</a>
+                    <span class="pipe">|</span><a href="javascript:;" id="qmenua" class="showmenu xi2" onmouseover="showMenu(this.id);">快捷导航</a>
+                    <span class="pipe">|</span><a href="http://i.pcbeta.com/home.php?mod=task">任务</a>
+                    <span class="pipe">|</span><a href="http://i.pcbeta.com/home.php?mod=space&amp;do=pm" id="pm_ntc">消息</a>
+                    <span class="pipe">|</span><a href="http://i.pcbeta.com/home.php?mod=space&amp;do=notice" id="myprompt">提醒</a><span id="myprompt_check"></span>
+                                                            <span class="pipe">|</span><a href="http://bbs.pcbeta.com/search.php?mod=forum&amp;srchfrom=3600&amp;searchsubmit=yes&amp;orderby=dateline" title="!show_newthreads!" class="xi2">查看新帖</a>               
+<span class="pipe">|</span><a href="http://so.pcbeta.com/" title="高级搜索" class="xi2" target="_blank">高级搜索</a>
+                                                                                                    <span class="pipe">|</span><a href="http://bbs.pcbeta.com/member.php?mod=logging&amp;action=logout&amp;formhash=d4a60cdc">退出</a>
+                    <span class="pipe">|</span><a id="tc" href="javascript:translatePage();">繁體版</a>
+                </div>
+            </div>
+                    </div>
+    </div>
+
+        
+    <div id="qmenua_menu" class="p_pop " style="display: none;">
+                <ul>
+            <li><a href="http://i.pcbeta.com/home.php?mod=space&amp;do=thread&amp;view=me">帖子</a></li>
+            <li><a href="http://i.pcbeta.com/home.php?mod=space&amp;do=friend">好友</a></li>
+            <li><a href="http://i.pcbeta.com/home.php?mod=magic">道具</a></li>
+            <li><a href="http://i.pcbeta.com/home.php?mod=medal">勋章</a></li>
+            <li><a href="http://i.pcbeta.com/home.php?mod=space&amp;do=favorite&amp;view=me">收藏</a></li>
+            <li><a href="http://i.pcbeta.com/home.php?mod=spacecp">设置</a></li>
+        </ul>
+            </div>
+            <div id="hd">
+        <div class="wp">
+            <div class="hdc cl">
+                                <h2><a href="/" title="远景论坛 - 微软极客社区"></a>                </h2>
+
+                <div style="float:left;margin-left:15px;"></div>
+
+                <div id="nv" class="pb_nv">
+                    <a href="javascript:;" id="qmenu" class="none" onmouseover="showMenu({'ctrlid':'qmenu','pos':'34!','ctrlclass':'a','duration':2});">快捷导航</a>
+                    <ul>
+                                                <li id="mn_portal" ><a href="http://www.pcbeta.com" hidefocus="true" title="Portal"  >首页<span>Portal</span></a></li>                                                <li id="mn_N0c0f" ><a href="http://www.pcbeta.com/news" hidefocus="true"   style="font-weight: bold;">资讯</a></li>                                                <li class="a" id="mn_forum" ><a href="http://bbs.pcbeta.com" hidefocus="true" title="BBS"  >论坛<span>BBS</span></a></li>                                                <li id="mn_home" ><a href="http://i.pcbeta.com" hidefocus="true" title="Space"  >家园<span>Space</span></a></li>                                                <li id="mn_N7ff4" ><a href="http://mac.pcbeta.com" hidefocus="true" target="_blank"   style="font-weight: bold;">苹果</a></li>                                                <li id="mn_Nf7b0" ><a href="http://www.pcbeta.com/win8tech/" hidefocus="true"  >技术</a></li>                                                                                                                                                                                                                                                <li id="mn_N0589" ><a href="http://bbs.pcbeta.com/forum-win10-1.html" hidefocus="true"  >Win10</a></li>                                                                                            </ul>
+                </div>
+            </div>
+                                    <div id="mu" class="cl">
+                            </div>
+                    </div>
+    </div>
+            <div id="wp" class="wp cl"><div id="ct" class="wp cl w">
+<div class="nfl">
+<div class="f_c altw">
+<div id="messagetext" class="alert_error">
+<p>为防止使用迅雷等多线程下载工具附件时出现多次扣费的情况，请稍等 60 秒后继续下载</p>
+<script type="text/javascript">
+if(history.length > (BROWSER.ie ? 0 : 1)) {
+document.write('<p class="alert_btnleft"><a href="javascript:history.back()">[ 点击这里返回上一页 ]</a></p>');
+} else {
+document.write('<p class="alert_btnleft"><a href="./">[ 远景论坛 - 微软极客社区 首页 ]</a></p>');
+}
+</script>
+</div>
+</div>
+</div>
+</div>    <div style="margin:0 auto;width:1000px;"></div>
+    </div>
+            
+                        <div id="g_upmine_menu" class="tip tip_3" style="display:none;">
+        <div class="tip_c">
+            积分 23, 距离下一级还需  积分
+        </div>
+        <div class="tip_horn"></div>
+    </div>
+                <span id="scrolltop" onclick="window.scrollTo('0','0')">回顶部</span>
+    <script type="text/javascript">_attachEvent(window, 'scroll', function(){showTopLink();});</script>
+<ul id="myrepeats_menu" class="p_pop" style="display:none;"><li style="clear:both"><a href="http://i.pcbeta.com/home.php?mod=spacecp&ac=plugin&id=myrepeats:memcp">设置马甲</a></li></ul>    <div class="ftbg">
+        <div id="ft" class="wp cl">
+            <div class="pb_ft">
+                <ul>
+                    <li class="ft_nv1"><a href="javascript:void(0);" target="_blank">商务合作</a></li>
+                    <li class="ft_nv2"><a href="/cdn-cgi/l/email-protection#552536373021347b263027233c3630152536373021347b363a38" onclick="setCopy('pcbeta'+'.'+'service'+'@'+'pcbeta'+'.'+'com', '复制成功');return false;">信息举报</a></li>
+                    <li class="ft_nv4"><a href="http://bbs.pcbeta.com/viewthread-1050588-1-1.html" target="_blank">职位招聘</a></li>
+                    <li class="ft_nv4"><a href="/cdn-cgi/l/email-protection#6d1d0e0f08190c431e081f1b040e082d1d0e0f08190c430e0200" target="_blank">联系我们</a></li>
+                </ul>
+            </div>
+            Copyright (C) 2005-2021 pcbeta.com, All rights reserved<br />
+            Powered by Discuz!&nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" target="_blank">苏ICP备17027154号</a><br />
+            请勿发布违反中华人民共和国法律法规的言论，会员观点不代表远景论坛官方立场。<br />
+            <a href="http://www.pcbeta.com/" title="远景在线" target="_blank">远景在线</a> | <a href="http://bbs.pcbeta.com/" title="远景论坛" target="_blank">远景论坛</a> | <a href="http://mac.pcbeta.com/" title="苹果论坛" target="_blank">苹果论坛</a> | <a href="http://bbs.pcbeta.com/forum-win10-1.html" title="Win10论坛" target="_blank">Win10论坛</a> | <a href="http://bbs.pcbeta.com/forum-windows8-1.html" title="Win8论坛" target="_blank">Win8论坛</a> | <a href="http://bbs.pcbeta.com/forum-windows7-1.html" title="Win7论坛" target="_blank">Win7论坛</a> | <a href="http://bbs.pcbeta.com/forum-windowsphone-1.html" title="Windows Phone论坛" target="_blank">WP论坛</a> | <a href="http://bbs.pcbeta.com/forum-518-1.html" title="Office论坛" target="_blank">Office论坛</a> | <a href="http://we.poppur.com/" title="电脑硬件" target="_blank">电脑硬件</a> | <a href="http://www.rayyo.com/" title="安卓软件" target="_blank">安卓软件</a>
+        </div>
+    </div>
+<style type="text/css"></style>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F76c941eab16e9b48cd0fb4a6d9482a4f' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-57086375-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script src="http://www.pcbeta.com//data/cache/ggk.js?Z4m" type="text/javascript"></script>
+</body>
+</html>
