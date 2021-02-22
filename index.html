@@ -1,216 +1,247 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Easy-Kexts</title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/bulma/0.9.1/css/bulma.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
-    <style>*{font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC","Microsoft YaHei", "WenQuanYiMicro Hei", sans-serif}</style>
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-            $notification = $delete.parentNode;
-            $delete.addEventListener('click', () => {
-            $notification.parentNode.removeChild($notification);
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Easy-Kexts</title>
+        <link href="https://cdn.bootcdn.net/ajax/libs/bulma/0.9.1/css/bulma.min.css" rel="stylesheet">
+        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+        <style>*{font-family: Consolas, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYiMicro Hei", sans-serif}</style>
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+                $notification = $delete.parentNode;
+                $delete.addEventListener('click', () => {
+                $notification.parentNode.removeChild($notification);
+                });
             });
-        });
-        });
-    </script>
-</head>
-<body>
-<nav class="breadcrumb is-centered" aria-label="breadcrumbs">
-  <ul>
-    <li>
-      <a href="http://bbs.pcbeta.com/">
-        <span class="icon is-medium">
-          <i class="fas fa-apple-alt" aria-hidden="true"></i>
-        </span>
-        <span>远景</span>
-      </a>
-    </li>
-    <li>
-      <a href="https://dortania.github.io/OpenCore-Install-Guide/" target="_blank">
-        <span class="icon is-medium">
-          <i class="fas fa-book" aria-hidden="true"></i>
-        </span>
-        <span>文档</span>
-      </a>
-    </li>
-    <li>
-      <a href="https://gitee.com/" target="_blank">
-        <span class="icon is-medium">
-          <i class="fab fa-gratipay" aria-hidden="true"></i>
-        </span>
-        <span>码云</span>
-      </a>
-    </li>
-    <li>
-      <a href="https://evu.gitee.io/easy-kexts-stable/" target="_blank">
-        <span class="icon is-medium">
-          <i class="fas fa-bolt" aria-hidden="true"></i>
-        </span>
-        <span>主页</span>
-      </a>
-    </li>
-  </ul>
-</nav>
-<div class="container has-text-centered">
-    <div class="notification is-success is-light">
-      <button class="delete"></button>
-      本次更新时间
-2021-02-19 13:36:48
-    </div>
-</div>
-<section class="section" name="Core">
-    <div class="container">
-        <div class="columns is-vcentered is-centered">
-            <table class="table is-bordered is-striped is-hoverable">
-                <thead>
-                <tr>
-                    <th><abbr>一级分类</abbr></th>
-                    <th><abbr>二级分类</abbr></th>
-                    <th><abbr>项目名称</abbr></th>
-                    <th><abbr>版本信息</abbr></th>
-                    <th><abbr>发布时间</abbr></th>
-                    <th><abbr>下载方式</abbr></th>
-                    <th><abbr>下载地址</abbr></th>
-                </tr>
-                </thead>
-                <tfoot>
-                <tr><th><span class="tag is-primary is-light">CORE</span></th>
-                <th><span class="tag is-primary is-light">Required</span></th>
-                <th><a href="https://github.com/acidanthera/OpenCorePkg" target="_blank"><span class="tag is-primary">acidanthera/OpenCorePkg</span></a></th>
-                <th><span class="tag is-success is-light">0.6.6</span></th>
-                <th><span class="tag is-success">2021-02-02T17:45:08Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/OpenCore-0.6.6-RELEASE.zip"target="_blank"><span class="tag is-link">OpenCore-0.6.6-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/OpenCore-0.6.6-DEBUG.zip"target="_blank"><span class="tag is-link">OpenCore-0.6.6-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">CORE</span></th>
-                <th><span class="tag is-primary is-light">Required</span></th>
-                <th><a href="https://github.com/acidanthera/Lilu" target="_blank"><span class="tag is-primary">acidanthera/Lilu</span></a></th>
-                <th><span class="tag is-success is-light">1.5.1</span></th>
-                <th><span class="tag is-success">2021-02-02T17:29:44Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/Lilu-1.5.1-RELEASE.zip"target="_blank"><span class="tag is-link">Lilu-1.5.1-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/Lilu-1.5.1-DEBUG.zip"target="_blank"><span class="tag is-link">Lilu-1.5.1-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">CORE</span></th>
-                <th><span class="tag is-primary is-light">Required</span></th>
-                <th><a href="https://github.com/acidanthera/VirtualSMC" target="_blank"><span class="tag is-primary">acidanthera/VirtualSMC</span></a></th>
-                <th><span class="tag is-success is-light">1.2.0</span></th>
-                <th><span class="tag is-success">2021-02-02T17:33:07Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/VirtualSMC-1.2.0-RELEASE.zip"target="_blank"><span class="tag is-link">VirtualSMC-1.2.0-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/VirtualSMC-1.2.0-DEBUG.zip"target="_blank"><span class="tag is-link">VirtualSMC-1.2.0-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Graphics</span></th>
-                <th><span class="tag is-primary is-light">Required</span></th>
-                <th><a href="https://github.com/acidanthera/WhateverGreen" target="_blank"><span class="tag is-primary">acidanthera/WhateverGreen</span></a></th>
-                <th><span class="tag is-success is-light">1.4.7</span></th>
-                <th><span class="tag is-success">2021-02-02T17:32:31Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/WhateverGreen-1.4.7-RELEASE.zip"target="_blank"><span class="tag is-link">WhateverGreen-1.4.7-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/WhateverGreen-1.4.7-DEBUG.zip"target="_blank"><span class="tag is-link">WhateverGreen-1.4.7-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Audio</span></th>
-                <th><span class="tag is-primary is-light">ALC</span></th>
-                <th><a href="https://github.com/acidanthera/AppleALC" target="_blank"><span class="tag is-primary">acidanthera/AppleALC</span></a></th>
-                <th><span class="tag is-success is-light">1.5.7</span></th>
-                <th><span class="tag is-success">2021-02-02T17:43:53Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AppleALC-1.5.7-RELEASE.zip"target="_blank"><span class="tag is-link">AppleALC-1.5.7-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AppleALC-1.5.7-DEBUG.zip"target="_blank"><span class="tag is-link">AppleALC-1.5.7-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Ethernet</span></th>
-                <th><span class="tag is-primary is-light">Intel</span></th>
-                <th><a href="https://github.com/acidanthera/IntelMausi" target="_blank"><span class="tag is-primary">acidanthera/IntelMausi</span></a></th>
-                <th><span class="tag is-success is-light">1.0.5</span></th>
-                <th><span class="tag is-success">2021-01-04T17:07:21Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/IntelMausi-1.0.5-RELEASE.zip"target="_blank"><span class="tag is-link">IntelMausi-1.0.5-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/IntelMausi-1.0.5-DEBUG.zip"target="_blank"><span class="tag is-link">IntelMausi-1.0.5-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Ethernet</span></th>
-                <th><span class="tag is-primary is-light">Intel</span></th>
-                <th><a href="https://github.com/khronokernel/SmallTree-I211-AT-patch" target="_blank"><span class="tag is-primary">khronokernel/SmallTree-I211-AT-patch</span></a></th>
-                <th><span class="tag is-success is-light">1.3.0</span></th>
-                <th><span class="tag is-success">2020-04-16T15:04:58Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/SmallTreeIntel82576.kext.zip"target="_blank"><span class="tag is-link">SmallTreeIntel82576.kext.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Ethernet</span></th>
-                <th><span class="tag is-primary is-light">Atheros</span></th>
-                <th><a href="https://github.com/Mieze/AtherosE2200Ethernet" target="_blank"><span class="tag is-primary">Mieze/AtherosE2200Ethernet</span></a></th>
-                <th><span class="tag is-success is-light">2.2.2</span></th>
-                <th><span class="tag is-success">2018-11-17T23:19:16Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AtherosE2200Ethernet-V2.2.2.zip"target="_blank"><span class="tag is-link">AtherosE2200Ethernet-V2.2.2.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Ethernet</span></th>
-                <th><span class="tag is-primary is-light">Realtek</span></th>
-                <th><a href="https://github.com/Mieze/RTL8111_driver_for_OS_X" target="_blank"><span class="tag is-primary">Mieze/RTL8111_driver_for_OS_X</span></a></th>
-                <th><span class="tag is-success is-light">V2.4.0</span></th>
-                <th><span class="tag is-success">2021-02-18T16:11:20Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/RealtekRTL8111-V2.4.0.zip"target="_blank"><span class="tag is-link">RealtekRTL8111-V2.4.0.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">WIFI</span></th>
-                <th><span class="tag is-primary is-light">Intel</span></th>
-                <th><a href="https://github.com/OpenIntelWireless/itlwm" target="_blank"><span class="tag is-primary">OpenIntelWireless/itlwm</span></a></th>
-                <th><span class="tag is-success is-light">v1.3.0-alpha</span></th>
-                <th><span class="tag is-success">2021-02-05T10:01:20Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/itlwm-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">itlwm-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-Mojave-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-Mojave-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-High_Sierra-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-High_Sierra-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-Catalina-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-Catalina-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-Big_Sur-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-Big_Sur-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Bluetooth</span></th>
-                <th><span class="tag is-primary is-light">Intel</span></th>
-                <th><a href="https://github.com/OpenIntelWireless/IntelBluetoothFirmware" target="_blank"><span class="tag is-primary">OpenIntelWireless/IntelBluetoothFirmware</span></a></th>
-                <th><span class="tag is-success is-light">1.1.2</span></th>
-                <th><span class="tag is-success">2020-08-03T15:44:46Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/IntelBluetooth.zip"target="_blank"><span class="tag is-link">IntelBluetooth.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">WIFI</span></th>
-                <th><span class="tag is-primary is-light">Broadcom</span></th>
-                <th><a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank"><span class="tag is-primary">acidanthera/AirportBrcmFixup</span></a></th>
-                <th><span class="tag is-success is-light">2.1.2</span></th>
-                <th><span class="tag is-success">2020-12-07T15:45:54Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportBrcmFixup-2.1.2-RELEASE.zip"target="_blank"><span class="tag is-link">AirportBrcmFixup-2.1.2-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportBrcmFixup-2.1.2-DEBUG.zip"target="_blank"><span class="tag is-link">AirportBrcmFixup-2.1.2-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Bluetooth</span></th>
-                <th><span class="tag is-primary is-light">Broadcom</span></th>
-                <th><a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank"><span class="tag is-primary">acidanthera/BrcmPatchRAM</span></a></th>
-                <th><span class="tag is-success is-light">2.5.6</span></th>
-                <th><span class="tag is-success">2021-02-02T17:44:32Z</span></th>
-                <th><span class="tag is-success">最新 release + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/BrcmPatchRAM-2.5.6-RELEASE.zip"target="_blank"><span class="tag is-link">BrcmPatchRAM-2.5.6-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/BrcmPatchRAM-2.5.6-DEBUG.zip"target="_blank"><span class="tag is-link">BrcmPatchRAM-2.5.6-DEBUG.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Ethernet</span></th>
-                <th><span class="tag is-primary is-light">Realtek</span></th>
-                <th><a href="https://github.com/Mieze/LucyRTL8125Ethernet" target="_blank"><span class="tag is-primary">LucyRTL8125Ethernet</span></a></th>
-                <th><span class="tag is-success is-light">1.0.0</span></th>
-                <th><span class="tag is-success">unknow</span></th>
-                <th><span class="tag is-success">手动 + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/LucyRTL8125Ethernet-V1.0.0.zip"target="_blank"><span class="tag is-link">LucyRTL8125Ethernet-V1.0.0.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">Ethernet</span></th>
-                <th><span class="tag is-primary is-light">Atheros</span></th>
-                <th><a href="https://github.com/Mieze/AtherosE2200Ethernet" target="_blank"><span class="tag is-primary">AtherosE2200Ethernet</span></a></th>
-                <th><span class="tag is-success is-light">2.3.3</span></th>
-                <th><span class="tag is-success">unknow</span></th>
-                <th><span class="tag is-success">手动 + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AtherosE2200Ethernet-V2.3.3.zip"target="_blank"><span class="tag is-link">AtherosE2200Ethernet-V2.3.3.zip</span></a></th>
-                </tr>
-                <tr><th><span class="tag is-primary is-light">CORE</span></th>
-                <th><span class="tag is-primary is-light">EFI/OC/Drivers/</span></th>
-                <th><a href="https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi" target="_blank"><span class="tag is-primary">HfsPlus.efi</span></a></th>
-                <th><span class="tag is-success is-light">unknown</span></th>
-                <th><span class="tag is-success">unknown</span></th>
-                <th><span class="tag is-success">直连 + CDN</span></th>
-                <th><a href="https://cdn.jsdelivr.net/gh/acidanthera/OcBinaryData/Drivers/HfsPlus.efi"target="_blank"><span class="tag is-link">HfsPlus.efi</span></a></th>
-                </tr>
-
-                </tfoot>
-            </table>
+            });
+        </script>
+    </head>
+    <body>
+        <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+          <ul>
+            <li>
+              <a href="http://bbs.pcbeta.com/">
+                <span class="icon is-medium">
+                  <i class="fab fa-apple"></i>
+                </span>
+                <span>远景</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://dortania.github.io/OpenCore-Install-Guide/" target="_blank">
+                <span class="icon is-medium">
+                  <i class="fas fa-anchor"></i>
+                </span>
+                <span>指南</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://gitee.com/" target="_blank">
+                <span class="icon is-medium">
+                  <i class="fab fa-gratipay" aria-hidden="true"></i>
+                </span>
+                <span>码云</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://evu.gitee.io/easy-kexts-stable/" target="_blank">
+                <span class="icon is-medium">
+                  <i class="fas fa-bolt" aria-hidden="true"></i>
+                </span>
+                <span>首页</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container has-text-centered">
+            <div class="notification is-success is-light">
+              <button class="delete"></button>
+              本次更新时间 2021-02-22 13:32:09
+            </div>
         </div>
-    </div>
-</section>
-</body>
+        <section class="section" name="Core">
+            <div class="container">
+                <div class="columns is-vcentered is-centered">
+                    <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th><abbr>一级分类</abbr></th>
+                                <th><abbr>二级分类</abbr></th>
+                                <th><abbr>项目名称</abbr></th>
+                                <th><abbr>版本信息</abbr></th>
+                                <th><abbr>发布时间</abbr></th>
+                                <th><abbr>同步方式</abbr></th>
+                                <th><abbr>下载地址</abbr></th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">OpenCore</span></th>
+                                <th><span class="tag is-primary is-light">Drivers</span></th>
+                                <th><a href="https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi" target="_blank"><span class="tag is-warning">HfsPlus.efi</span></a></th>
+                                <th><span class="tag is-success">none</span></th>
+                                <th><span class="tag is-success is-light">none</span></th>
+                                <th><span class="tag is-info">direct</span></th>
+                                <th>&lt;a href="https://cdn.jsdelivr.net/gh/acidanthera/OcBinaryData/Drivers/HfsPlus.efi" target="_blank"&gt;&lt;span class="tag is-link"&gt;AtherosE2200Ethernet-V2.3.3.zip&lt;/span&gt;&lt;/a&gt;</th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">OpenCore</span></th>
+                                <th><span class="tag is-primary is-light">OpenCore</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/OpenCorePkg/releases/37250936" target="_blank"><span class="tag is-warning">acidanthera/OpenCorePkg</span></a></th>
+                                <th><span class="tag is-success">0.6.6</span></th>
+                                <th><span class="tag is-success is-light">2021-02-02T17:45:08Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/OpenCore-0.6.6-RELEASE.zip"target="_blank"><span class="tag is-link">OpenCore-0.6.6-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/OpenCore-0.6.6-DEBUG.zip"target="_blank"><span class="tag is-link">OpenCore-0.6.6-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">OpenCore</span></th>
+                                <th><span class="tag is-primary is-light">Required</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/VirtualSMC/releases/37250358" target="_blank"><span class="tag is-warning">acidanthera/VirtualSMC</span></a></th>
+                                <th><span class="tag is-success">1.2.0</span></th>
+                                <th><span class="tag is-success is-light">2021-02-02T17:33:07Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/VirtualSMC-1.2.0-RELEASE.zip"target="_blank"><span class="tag is-link">VirtualSMC-1.2.0-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/VirtualSMC-1.2.0-DEBUG.zip"target="_blank"><span class="tag is-link">VirtualSMC-1.2.0-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">OpenCore</span></th>
+                                <th><span class="tag is-primary is-light">Required</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/Lilu/releases/37250202" target="_blank"><span class="tag is-warning">acidanthera/Lilu</span></a></th>
+                                <th><span class="tag is-success">1.5.1</span></th>
+                                <th><span class="tag is-success is-light">2021-02-02T17:29:44Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/Lilu-1.5.1-RELEASE.zip"target="_blank"><span class="tag is-link">Lilu-1.5.1-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/Lilu-1.5.1-DEBUG.zip"target="_blank"><span class="tag is-link">Lilu-1.5.1-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Graphics</span></th>
+                                <th><span class="tag is-primary is-light">Required</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/WhateverGreen/releases/37250328" target="_blank"><span class="tag is-warning">acidanthera/WhateverGreen</span></a></th>
+                                <th><span class="tag is-success">1.4.7</span></th>
+                                <th><span class="tag is-success is-light">2021-02-02T17:32:31Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/WhateverGreen-1.4.7-RELEASE.zip"target="_blank"><span class="tag is-link">WhateverGreen-1.4.7-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/WhateverGreen-1.4.7-DEBUG.zip"target="_blank"><span class="tag is-link">WhateverGreen-1.4.7-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Audio</span></th>
+                                <th><span class="tag is-primary is-light">Audio</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/AppleALC/releases/37250876" target="_blank"><span class="tag is-warning">acidanthera/AppleALC</span></a></th>
+                                <th><span class="tag is-success">1.5.7</span></th>
+                                <th><span class="tag is-success is-light">2021-02-02T17:43:53Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AppleALC-1.5.7-RELEASE.zip"target="_blank"><span class="tag is-link">AppleALC-1.5.7-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AppleALC-1.5.7-DEBUG.zip"target="_blank"><span class="tag is-link">AppleALC-1.5.7-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Ethernet</span></th>
+                                <th><span class="tag is-primary is-light">Ethernet</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/IntelMausi/releases/35959779" target="_blank"><span class="tag is-warning">acidanthera/IntelMausi</span></a></th>
+                                <th><span class="tag is-success">1.0.5</span></th>
+                                <th><span class="tag is-success is-light">2021-01-04T17:07:21Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/IntelMausi-1.0.5-RELEASE.zip"target="_blank"><span class="tag is-link">IntelMausi-1.0.5-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/IntelMausi-1.0.5-DEBUG.zip"target="_blank"><span class="tag is-link">IntelMausi-1.0.5-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Ethernet</span></th>
+                                <th><span class="tag is-primary is-light">Ethernet</span></th>
+                                <th><a href="https://api.github.com/repos/khronokernel/SmallTree-I211-AT-patch/releases/25575621" target="_blank"><span class="tag is-warning">khronokernel/SmallTree-I211-AT-patch</span></a></th>
+                                <th><span class="tag is-success">1.3.0</span></th>
+                                <th><span class="tag is-success is-light">2020-04-16T15:04:58Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/SmallTreeIntel82576.kext.zip"target="_blank"><span class="tag is-link">SmallTreeIntel82576.kext.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Ethernet</span></th>
+                                <th><span class="tag is-primary is-light">Ethernet</span></th>
+                                <th><a href="https://api.github.com/repos/Mieze/AtherosE2200Ethernet/releases/14061603" target="_blank"><span class="tag is-warning">Mieze/AtherosE2200Ethernet</span></a></th>
+                                <th><span class="tag is-success">2.2.2</span></th>
+                                <th><span class="tag is-success is-light">2018-11-17T23:19:16Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AtherosE2200Ethernet-V2.2.2.zip"target="_blank"><span class="tag is-link">AtherosE2200Ethernet-V2.2.2.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Ethernet</span></th>
+                                <th><span class="tag is-primary is-light">Ethernet</span></th>
+                                <th><a href="https://api.github.com/repos/Mieze/RTL8111_driver_for_OS_X/releases/38239302" target="_blank"><span class="tag is-warning">Mieze/RTL8111_driver_for_OS_X</span></a></th>
+                                <th><span class="tag is-success">V2.4.0</span></th>
+                                <th><span class="tag is-success is-light">2021-02-18T16:11:20Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/RealtekRTL8111-V2.4.0.zip"target="_blank"><span class="tag is-link">RealtekRTL8111-V2.4.0.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">WiFi and Bluetooth</span></th>
+                                <th><span class="tag is-primary is-light">Intel</span></th>
+                                <th><a href="https://api.github.com/repos/OpenIntelWireless/itlwm/releases/37399730" target="_blank"><span class="tag is-warning">OpenIntelWireless/itlwm</span></a></th>
+                                <th><span class="tag is-success">v1.3.0-alpha</span></th>
+                                <th><span class="tag is-success is-light">2021-02-05T10:01:20Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/itlwm-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">itlwm-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-Mojave-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-Mojave-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-High_Sierra-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-High_Sierra-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-Catalina-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-Catalina-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportItlwm-Big_Sur-v1.3.0-DEBUG-alpha-dbdbf00.zip"target="_blank"><span class="tag is-link">AirportItlwm-Big_Sur-v1.3.0-DEBUG-alpha-dbdbf00.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">WiFi and Bluetooth</span></th>
+                                <th><span class="tag is-primary is-light">Intel</span></th>
+                                <th><a href="https://api.github.com/repos/OpenIntelWireless/IntelBluetoothFirmware/releases/29234773" target="_blank"><span class="tag is-warning">OpenIntelWireless/IntelBluetoothFirmware</span></a></th>
+                                <th><span class="tag is-success">1.1.2</span></th>
+                                <th><span class="tag is-success is-light">2020-08-03T15:44:46Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/IntelBluetooth.zip"target="_blank"><span class="tag is-link">IntelBluetooth.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">WiFi and Bluetooth</span></th>
+                                <th><span class="tag is-primary is-light">Broadcom</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/AirportBrcmFixup/releases/34935348" target="_blank"><span class="tag is-warning">acidanthera/AirportBrcmFixup</span></a></th>
+                                <th><span class="tag is-success">2.1.2</span></th>
+                                <th><span class="tag is-success is-light">2020-12-07T15:45:54Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportBrcmFixup-2.1.2-RELEASE.zip"target="_blank"><span class="tag is-link">AirportBrcmFixup-2.1.2-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AirportBrcmFixup-2.1.2-DEBUG.zip"target="_blank"><span class="tag is-link">AirportBrcmFixup-2.1.2-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">WiFi and Bluetooth</span></th>
+                                <th><span class="tag is-primary is-light">Broadcom</span></th>
+                                <th><a href="https://api.github.com/repos/acidanthera/BrcmPatchRAM/releases/37250900" target="_blank"><span class="tag is-warning">acidanthera/BrcmPatchRAM</span></a></th>
+                                <th><span class="tag is-success">2.5.6</span></th>
+                                <th><span class="tag is-success is-light">2021-02-02T17:44:32Z</span></th>
+                                <th><span class="tag is-info">release</span></th>
+                                <th><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/BrcmPatchRAM-2.5.6-RELEASE.zip"target="_blank"><span class="tag is-link">BrcmPatchRAM-2.5.6-RELEASE.zip</span></a><a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/BrcmPatchRAM-2.5.6-DEBUG.zip"target="_blank"><span class="tag is-link">BrcmPatchRAM-2.5.6-DEBUG.zip</span></a></th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Ethernet</span></th>
+                                <th><span class="tag is-primary is-light">Ethernet</span></th>
+                                <th><a href="https://github.com/Mieze/LucyRTL8125Ethernet " target="_blank"><span class="tag is-warning">LucyRTL8125Ethernet</span></a></th>
+                                <th><span class="tag is-success">1.0.0</span></th>
+                                <th><span class="tag is-success is-light">none</span></th>
+                                <th><span class="tag is-info">manual</span></th>
+                                <th>&lt;a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/LucyRTL8125Ethernet-V1.0.0.zip" target="_blank"&gt;&lt;span class="tag is-link"&gt;LucyRTL8125Ethernet-V1.0.0.zip&lt;/span&gt;&lt;/a&gt;</th>
+                            </tr>
+                            
+                            <tr>
+                                <th><span class="tag is-primary">Ethernet</span></th>
+                                <th><span class="tag is-primary is-light">Ethernet</span></th>
+                                <th><a href="https://github.com/Mieze/AtherosE2200Ethernet" target="_blank"><span class="tag is-warning">AtherosE2200Ethernet</span></a></th>
+                                <th><span class="tag is-success">2.3.3</span></th>
+                                <th><span class="tag is-success is-light">none</span></th>
+                                <th><span class="tag is-info">manual</span></th>
+                                <th>&lt;a href="https://cdn.jsdelivr.net/gh/woq/Hackintosh-Resources/AtherosE2200Ethernet-V2.3.3.zip" target="_blank"&gt;&lt;span class="tag is-link"&gt;AtherosE2200Ethernet-V2.3.3.zip&lt;/span&gt;&lt;/a&gt;</th>
+                            </tr>
+                            
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
